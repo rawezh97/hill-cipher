@@ -4,8 +4,6 @@ word = input("the cipehr :")
 key = "ddcf"
 alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
-
-
 binary_list = []
 for i in alphabet:
     h = '\n'.join(format(ord(x), 'b') for x in i)
@@ -41,11 +39,6 @@ result = ''.join(world)
 print ("\ncipher : ",result)
 
 
-
-
-
-
-
 word_index = []
 key_index = []
 
@@ -79,8 +72,6 @@ for mod in adj_key:
         mod = (num - int(num))*26
     full_key.append(round(mod))
 #print("reverse_key(full) :",full_key)
-
-
 
 partetion_of_wordIndex = [] # we must split the entier word to the 2 alphabet per list or per part
 def two(paramet):
